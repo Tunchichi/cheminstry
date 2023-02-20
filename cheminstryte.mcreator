@@ -15,6 +15,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "testtube"
+    },
+    {
+      "name": "Tunchir",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tunchir"
     }
   ],
   "variable_elements": [],
@@ -22,7 +30,8 @@
   "language_map": {
     "en_us": {
       "itemGroup.tabchemynstryte": "Chemynstryte",
-      "item.cheminstryte.testtube": "Testtube"
+      "item.cheminstryte.testtube": "Testtube",
+      "block.cheminstryte.tunchir": "Tunchir"
     }
   },
   "foldersRoot": {

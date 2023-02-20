@@ -28,6 +28,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.cheminstryte.init.CheminstryteModTabs;
 import net.mcreator.cheminstryte.init.CheminstryteModItems;
+import net.mcreator.cheminstryte.init.CheminstryteModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -45,7 +46,7 @@ public class CheminstryteMod {
 	public CheminstryteMod() {
 		CheminstryteModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		CheminstryteModBlocks.REGISTRY.register(bus);
 		CheminstryteModItems.REGISTRY.register(bus);
 
 	}

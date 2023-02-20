@@ -1,0 +1,8 @@
+{
+  "parent": "cheminstryte:custom/tunchir",
+  "textures": {
+    "all": "cheminstryte:blocks/tunchir",
+    "particle": "cheminstryte:blocks/tunchir",
+    "0": "cheminstryte:blocks/tunchir"
+  }
+}
