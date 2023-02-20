@@ -4,7 +4,7 @@
   "definition": {
     "name": "Chemynstryte",
     "icon": {
-      "value": "CUSTOM:Chemicalicon"
+      "value": "CUSTOM:Testtube"
     },
     "showSearch": true
   }

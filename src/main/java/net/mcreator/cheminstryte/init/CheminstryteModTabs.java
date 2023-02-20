@@ -17,7 +17,7 @@ public class CheminstryteModTabs {
 		TAB_CHEMYNSTRYTE = new CreativeModeTab("tabchemynstryte") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(CheminstryteModItems.CHEMICALICON.get());
+				return new ItemStack(CheminstryteModItems.TESTTUBE.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)

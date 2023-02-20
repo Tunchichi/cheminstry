@@ -10,10 +10,10 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
-import net.mcreator.cheminstryte.item.ChemicaliconItem;
+import net.mcreator.cheminstryte.item.TesttubeItem;
 import net.mcreator.cheminstryte.CheminstryteMod;
 
 public class CheminstryteModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, CheminstryteMod.MODID);
-	public static final RegistryObject<Item> CHEMICALICON = REGISTRY.register("chemicalicon", () -> new ChemicaliconItem());
+	public static final RegistryObject<Item> TESTTUBE = REGISTRY.register("testtube", () -> new TesttubeItem());
 }
