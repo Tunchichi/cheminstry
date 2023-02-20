@@ -1,9 +1,29 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Chemicalicon",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chemicalicon"
+    },
+    {
+      "name": "Chemynstryte",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chemynstryte"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "itemGroup.tabchemynstryte": "Chemynstryte",
+      "item.cheminstryte.chemicalicon": "Chemicalicon"
+    }
   },
   "foldersRoot": {
     "name": "~",

@@ -26,6 +26,9 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.cheminstryte.init.CheminstryteModTabs;
+import net.mcreator.cheminstryte.init.CheminstryteModItems;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -40,8 +43,10 @@ public class CheminstryteMod {
 	private static int messageID = 0;
 
 	public CheminstryteMod() {
-
+		CheminstryteModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		CheminstryteModItems.REGISTRY.register(bus);
 
 	}
 
